@@ -1,3 +1,9 @@
-# ide config folders
 .vscode/
 .idea/
+
+node_modules/
+package-lock.json
+
+.env
+
+.eslintcache
