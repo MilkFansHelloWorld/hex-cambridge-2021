@@ -8,10 +8,6 @@ const swipe = require("./swipe/swipe");
 const chatroom = require("./chatroom");
 const exitchatroom = require("./exitchatroom");
 
-routes.get("/", (req,res) => {
-  res.status(200).json({message: "Connected"});
-});
-
 routes.use("/api/user", user);
 routes.use("/api/nextuser", nextuser);
 routes.use("/api/images", images);

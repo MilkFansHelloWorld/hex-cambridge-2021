@@ -11,8 +11,6 @@ const io = require('socket.io')(server, {
     userC: "3"
 }; // It's supposed to be the matched users currently available to currentUser*/
 
-// TODO: can change the pipeline to the following: before going to ask for chat room, first send req to get chatroom id, get the history
-// messages, then join chatroom. 
 
 const PORT = 4000;
 const NEW_CHAT_MESSAGE_EVENT = "newChatMessage";
